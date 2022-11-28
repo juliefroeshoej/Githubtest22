@@ -5,9 +5,9 @@
         public int Id { get; set; }
         public string Name { get; set; }
 
-        public Student()
+        public Student(int id)
         {
-
+            Id = id;
         }
 
         public override string ToString()
